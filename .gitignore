@@ -1,0 +1,33 @@
+# ---------- PHP / Web ----------
+node_modules/
+vendor/
+.env
+.env.local
+*.log
+*.cache
+.DS_Store
+
+# Apache / server junk
+.htaccess.swp
+
+# ---------- Flutter ----------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android build
+android/.gradle
+android/app/build
+
+# iOS build
+ios/Pods/
+ios/Runner.xcworkspace
+
+# IDE
+.idea/
+.vscode/
+*.iml
